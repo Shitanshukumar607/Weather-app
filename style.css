@@ -1,0 +1,111 @@
+:root {
+    --first-color: #0f172a;
+    --second-color: #1e293b;
+    --third-color: #94a3b8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    height: 100vh;
+    padding: 2.5%;
+    background-color: var(--first-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.github {
+    background-color: white;
+    height: 7.5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.github i {
+    aspect-ratio: 1;
+    color: var(--first-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github span {
+    color: var(--first-color);
+}
+
+.search-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    height: 7.5%;
+}
+
+.search-div i {
+    font-size: 125%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.search-div .search-box,
+.search-div .weather-box {
+    background-color: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.search-div .search-box {
+    width: 75%;
+    height: 100%;
+}
+
+.search-div .search-box .search-logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-div .search-box .searchbar {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.search-div .search-box .searchbar input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    outline: none;
+    caret-color: white;
+    color: white;
+    font-size: 100%;
+}
+
+   
+
+.search-div .weather-box {
+    aspect-ratio: 1;
+}
