@@ -12,8 +12,9 @@
 
 body {
     height: 100vh;
-    padding: 2.5%;
+    padding: 5% 2.5%;
     background-color: var(--first-color);
+
 }
 
 a {
@@ -46,7 +47,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 5%;
     height: 7.5%;
 }
 
@@ -66,7 +67,7 @@ a {
     justify-content: center;
     height: 100%;
     border-radius: 10px;
-
+    overflow: hidden;
 }
 
 .search-div .search-box {
@@ -104,8 +105,91 @@ a {
     font-size: 100%;
 }
 
-   
+
 
 .search-div .weather-box {
     aspect-ratio: 1;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    margin: 10% 0;
+}
+
+.weather-div {
+    background-color: var(--second-color);
+    border-radius: 10px;
+    aspect-ratio: 1;
+    border: solid 2px white;
+    color: white;
+}
+
+
+
+.weather-div .weather-img-div {
+    height: 60%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    margin: 7.5% 10% 7.5% 10%;
+    gap: 10%;
+}
+
+
+
+.weather-div .weather-img-div img {
+    height: 50%;
+    aspect-ratio: 1;
+
+}
+
+
+.temperature-cloud-condition {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+}
+
+.temperature {
+    font-size: 300%;
+
+}
+
+.cloud-condition {
+    font-size: 125%;
+}
+
+
+
+
+
+
+
+.weather-div .place-time-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    padding-top: 5%;
+    margin: 0% 10% 7.5% 10%;
+    border-top: solid 2px white;
+}
+
+
+.place-time-div img {
+    
+    margin:0 5% 0 0;
+}
+
+
+.place,
+.time {
+    font-size: 125%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Weather App</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="script.js" defer></script>
+    <script src="app.js" defer></script>
     <script src="https://kit.fontawesome.com/c1ed9badbf.js" crossorigin="anonymous"></script>
 </head>
 
@@ -23,14 +23,15 @@
     </a>
 
     <div class="search-div">
-
         <div class="search-box">
             <div class="search-logo">
                 <i class="fa-solid fa-magnifying-glass">
                 </i>
             </div>
             <div class="searchbar">
-                <input type="text" placeholder="Search">
+                <form>
+                    <input class="submit" type="submit">
+                </form>
             </div>
         </div>
 
@@ -39,7 +40,32 @@
         </div>
     </div>
 
+    <h1>Today's Overview</h1>
 
+    <div class="weather-div">
+
+        <div class="weather-img-div">
+            <img src="./weather.svg" alt="">
+            <div class="temperature-cloud-condition">
+                <span class="temperature">10.9°C</span>
+                <span class="cloud-condition">Broken Clouds</span>
+            </div>
+
+        </div>
+
+        <div class="place-time-div">
+
+            <span class="place">
+                <img src="location.svg" alt="" />
+                Delhi</span>
+
+            <span class="time">
+                <img src="date.svg" alt="" />
+                11 o clock
+            </span>
+        </div>
+
+    </div>
 
 </body>
 
